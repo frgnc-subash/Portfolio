@@ -33,16 +33,22 @@
 </head>
 
 <body class="dark-theme-exclusive">
-  
+
   <canvas id="rainCanvas"></canvas>
   <div id="custom-cursor"></div>
 
   <nav class="portfolio-nav">
+    <button class="menu-btn" aria-label="Toggle navigation menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
     <ul class="nav-links">
       <div class="nav-indicator"></div>
       <li><a href="#about-section" class="nav-item surface interactive-hover active">About</a></li>
       <li><a href="#technologies-section" class="nav-item surface interactive-hover">Technology</a></li>
-      <li><a href="#work-section" class="nav-item surface interactive-hover">Work</a></li>
+      <li><a href="#education-section" class="nav-item surface interactive-hover">Education</a></li>
+      <li><a href="#work-section" class="nav-item surface interactive-hover">Projects</a></li>
       <li><a href="#gallery-section" class="nav-item surface interactive-hover">Gallery</a></li>
       <li><a href="#contact-section" class="nav-item surface interactive-hover">Contact</a></li>
     </ul>
@@ -50,6 +56,7 @@
 
   <main class="content">
     <section id="about-section" class="profile-section scroll-animate">
+
       <div class="hero-quote interactive-hover scroll-animate" style="--animation-delay: 0.1s;">Creating a world with
         Pixels</div>
       <p class="hero-intro scroll-animate" style="--animation-delay: 0.2s;">Hi, I'm Subash aspiring full-stack
@@ -58,7 +65,7 @@
       <p class="hero-location scroll-animate" style="--animation-delay: 0.3s;">Based in Nepal</p>
 
       <div class="hero-buttons scroll-animate" style="--animation-delay: 0.4s;">
-        <a href="#work-section" class="btn btn-glass interactive-hover">See My Work</a>
+        <a href="#work-section" class="btn btn-glass interactive-hover">See My Projects</a>
         <a href="assets/resume.pdf" class="btn btn-outline interactive-hover" download="resume.pdf"
           aria-label="Download Resume">
           <i class="fas fa-download"></i> Download Resume
@@ -129,8 +136,41 @@
     </div>
 
     <div class="content-section-wrapper scroll-animate">
+      <section id="education-section" class="content-section">
+        <h2 class="section-title interactive-hover scroll-animate" style="--animation-delay: 0.1s;">Education</h2>
+        <div class="education-container">
+          <div class="education-item scroll-animate" style="--animation-delay: 0.2s;">
+            <div class="education-timeline">
+              <span class="education-year">2024 - Present</span>
+              <div class="education-line"></div>
+            </div>
+            <div class="education-content">
+              <h3 class="education-degree">BSc. (HONS) IT</h3>
+              <p class="education-institution">Tecshpire College, New Baneshowr</p>
+              <p class="education-description">Currently pursuing a bachelor's degree in Information Technology with a
+                focus on full-stack developer.</p>
+            </div>
+          </div>
+
+          <div class="education-item scroll-animate" style="--animation-delay: 0.3s;">
+            <div class="education-timeline">
+              <span class="education-year">2022 - 2024</span>
+              <div class="education-line"></div>
+            </div>
+            <div class="education-content">
+              <h3 class="education-degree"> Secondary Level Education</h3>
+              <p class="education-institution">St. Xavier's School, Jawalakhel</p>
+              <p class="education-description">Completed secondary level education with Computer Science as a major
+                subject.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="content-section-wrapper scroll-animate">
       <section id="work-section" class="content-section">
-        <h2 class="section-title interactive-hover scroll-animate" style="--animation-delay: 0.1s;">My Work</h2>
+        <h2 class="section-title interactive-hover scroll-animate" style="--animation-delay: 0.1s;">Projects</h2>
         <div class="wireframe-grid">
           <div class="wireframe-item work-item-glass interactive-hover scroll-animate" style="--animation-delay: 0.2s;">
             <img src="assets/preview-img/hero section.png" alt="Libook Library Management System Preview"
@@ -197,54 +237,52 @@
         <div class="gallery-grid">
 
           <div class="gallery-item interactive-hover scroll-animate" style="--animation-delay: 0.2s;">
-            <img src="assets/gallery/citizenship card back .jpg" alt="Citizenship Card Back Artwork"
-              class="gallery-image">
+            <img src="assets/gallery/sky1.jpeg" alt="Citizenship Card Back Artwork" class="gallery-image">
             <div class="gallery-caption">
-              <h3>Akira Asai</h3>
-              <p>Digital artwork concept.</p>
+              <h3>Kathmandu</h3>
+              <p>View from Mudkhu Bhanjyang</p>
             </div>
           </div>
 
           <div class="gallery-item interactive-hover scroll-animate" style="--animation-delay: 0.3s;">
-            <img src="assets/gallery/giyo.jpg" alt="Giyu Tomioka Fan Art" class="gallery-image">
+            <img src="assets/gallery/cycles.jpeg" alt="Giyu Tomioka Fan Art" class="gallery-image">
             <div class="gallery-caption">
-              <h3>Giyu Tomioka</h3>
-              <p>Fan art from Demon Slayer.</p>
+              <h3>Rani Baan</h3>
+              <p>Cycling with my pal.</p>
             </div>
           </div>
 
           <div class="gallery-item interactive-hover scroll-animate" style="--animation-delay: 0.2s;">
-            <img src="assets/gallery/tokito muichiro.jpg" alt="Muichiro Tokito Fan Art" class="gallery-image">
+            <img src="assets/gallery/sky2.jpeg" alt="Muichiro Tokito Fan Art" class="gallery-image">
             <div class="gallery-caption">
-              <h3>Muichiro Tokito</h3>
-              <p>Digital art of the Mist Hashira.</p>
+              <h3>Mudkhu Dada</h3>
+              <p>Mudkhu bhanjyang </p>
             </div>
           </div>
 
           <div class="gallery-item interactive-hover scroll-animate" style="--animation-delay: 0.3s;">
-            <img src="assets/gallery/voyager-tophx-panda-cover-flat-color.jpg"
+            <img src="assets/gallery/view.jpeg"
               alt="Voyager Tophx Panda Cover Art - Flat Color" class="gallery-image">
             <div class="gallery-caption">
-              <h3>Voyager Panda - Flat Color</h3>
-              <p>Cover art concept (flat colors).</p>
+              <h3>One beautiful place</h3>
+              <p>Dont know the name of place.</p>
             </div>
           </div>
 
           <div class="gallery-item interactive-hover scroll-animate" style="--animation-delay: 0.2s;">
-            <img src="assets/gallery/voyager-tophx-panda-cover.jpg" alt="Voyager Tophx Panda Cover Art - Final"
+            <img src="assets/gallery/vintage-eve.jpeg" alt="Voyager Tophx Panda Cover Art - Final"
               class="gallery-image">
             <div class="gallery-caption">
-              <h3>Voyager Panda - Final</h3>
-              <p>Completed cover artwork.</p>
+              <h3>Vintage Pictures</h3>
+              <p>Evening Picture from Mudkhu Dada</p>
             </div>
           </div>
 
           <div class="gallery-item interactive-hover scroll-animate" style="--animation-delay: 0.3s;">
-            <img src="assets/gallery/citizenship card back .jpg" alt="Another view of Citizenship Card Design"
-              class="gallery-image">
+            <img src="assets/gallery/sky.jpeg" alt="Another view of Citizenship Card Design" class="gallery-image">
             <div class="gallery-caption">
-              <h3>Abstract Design II</h3>
-              <p>Further exploration of forms.</p>
+              <h3>Abstract Sky View</h3>
+              <p>From Mudkhu View Tower</p>
             </div>
           </div>
 
@@ -275,23 +313,7 @@
               <div id="form-status-message" style="margin-top: 15px; font-weight: 500;"></div>
             </form>
           </div>
-          <div class="contact-info-container scroll-animate" style="--animation-delay: 0.3s;">
-            <h3 class="contact-subtitle">Contact Information</h3>
-            <br>
-            <div class="contact-details">
-              <div class="contact-item interactive-hover">
-                <a href="mailto:subash.lamas24@gmail.com">subash.lamas24@gmail.com</a>
-                <i class="fas fa-envelope contact-icon"></i>
-              </div>
-              <div class="contact-item interactive-hover">
-                <a href="tel:+9779818450178">+977-9818450178</a>
-                <i class="fas fa-phone contact-icon"></i>
-              </div>
-              <div class="contact-item interactive-hover">
-                <span>Kathmandu, Nepal</span>
-                <i class="fas fa-map-marker-alt contact-icon"></i>
-              </div>
-            </div>
+          <div class="contact-container scroll-animate" style="--animation-delay: 0.3s;">
             <div class="contact-socials">
               <a href="https://linkedin.com/in/subash-lama-tamang" target="_blank" rel="noopener noreferrer"
                 class="social-icon interactive-hover" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -301,7 +323,7 @@
                 class="social-icon interactive-hover" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
             <div class="contact-footer">
-              <p>© 2024 Subash Lama Tamang. All rights reserved.</p>
+              <p>© 2025 Subash Lama Tamang. All rights reserved.</p>
               <p>Let's build something amazing together!</p>
             </div>
           </div>
@@ -317,4 +339,5 @@
 
   <script src="script.js"></script>
 </body>
+
 </html>
