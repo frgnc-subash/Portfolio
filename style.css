@@ -303,14 +303,17 @@ body.dark-theme-exclusive {
 
 /*Border animation*/
 
-/* .profile-section::after {
-  background: 
-    radial-gradient(circle at 20% 30%, rgba(67, 195, 243, 0.15), transparent 40%),
-    radial-gradient(circle at 80% 70%, rgba(90, 117, 230, 0.15), transparent 40%);
+.profile-section::after {
+  background: radial-gradient(
+      circle at 20% 30%,
+      rgba(7, 9, 10, 0.15),
+      transparent 40%
+    ),
+    radial-gradient(circle at 80% 70%, rgba(2, 0, 8, 0.15), transparent 40%);
   mix-blend-mode: screen;
   animation: glow-shift 10s infinite alternate ease-in-out;
   opacity: 0.7;
-} */
+}
 
 .profile-section .overlay-effect {
   background: linear-gradient(
